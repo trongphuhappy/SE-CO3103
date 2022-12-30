@@ -1,0 +1,94 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    font-size: 10px;
+    --base-color: hsl(78, 33%, 90%);
+    --org-color: #FF5C00;
+    overflow-x: hidden;
+}
+
+header {
+    padding-top: 0.25%;
+    padding-bottom: 0.35%;
+}
+
+.logo-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.base-color {
+    background-color: var(--base-color);
+}
+
+.social-media-icon > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nor {
+    font-weight: normal;
+}
+
+.org-color {
+    color: var(--org-color);
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+} 
+
+.h1_ {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 73px;
+}
+
+.form_ {
+    padding-left: 30%;
+    margin: 0 auto;
+}
+
+.input-text {
+    background-color: #d9d9d9a1 ;
+    border: 0;
+    font-size: 15px;
+    width: 50%;
+    height: 25px;
+    display: block;
+    margin: 20px;
+    border-radius: 3px;
+}
+
+.button_ {
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 50px;
+    width: 180px;
+    height: 30px;
+
+}
+
+.flex-container {
+    margin-top: 40px;
+    margin-left: 108px;
+    display: flex;
+    align-items: center;
+}
+
+.radio-button {
+    margin-left: 30px;
+}
+
+.input-date {
+    margin-left: 60px;
+    width: 25%;
+    height: 25px;
+}

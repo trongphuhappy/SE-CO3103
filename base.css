@@ -1,0 +1,46 @@
+* {
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    font-size: 10px;
+    --base-color: hsl(78, 33%, 90%);
+    --org-color: #FF5C00;
+}
+
+header {
+    padding-top: 0.25%;
+    padding-bottom: 0.35%;
+}
+
+.base{
+    background-color: var(--base-color);
+}
+
+
+.nor {
+    font-weight: normal;
+}
+
+.orange {
+    color: var(--org-color);
+}
+
+.logo-font {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.anchor-style {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active {
+    color: var(--org-color);
+}
+
+
+
+footer {
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
