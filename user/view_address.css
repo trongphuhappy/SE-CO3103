@@ -196,9 +196,9 @@ p.s_2 {
     color: #000000;
 }
 
-.avt {
+.addr {
     position: absolute;
-    top: 20px;
+    top: 50px;
     width: 200px;
     height: auto;
     right: 30px;
