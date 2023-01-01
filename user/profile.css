@@ -53,17 +53,42 @@ a:hover {
 }
 
 .navi_1 {
-    background-color: rgba(253, 219, 101, 30%);
     position: absolute;
     width: 300px;
     height: 400px;
     top: 100px;
     left: 100px;
-
-    border-radius: 50px;
 }
 
+.user {
+    top: 100px;
+    left: 300px;
+}
+.avt_1 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
 
+    width: 60px;
+    height: auto;
+}
+.username {
+    position: absolute;
+    top: 20px;
+    left: 95px;
+
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height */
+
+    align-items: center;
+    text-align: center;
+
+    color: #D4A373;    
+}
 
 .navi_1 a {
     position: relative;
@@ -89,7 +114,7 @@ a:hover {
 .board {
     position: absolute;
     width: 1000px;
-    height: 600px;
+    height: 625px;
     right: 100px;
     top: 100px;
 
