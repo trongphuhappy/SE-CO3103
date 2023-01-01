@@ -31,35 +31,56 @@
             <div class="col-md-2"></div>
         </div>
     </header>
+
     <main>
         <div class="content">
             <div class="navi_1">
                 <a href="#">Tài khoản của tôi</a>
                 <br>
-                <a href="#">Tài khoản của tôi</a>
+                <a href="#">Hồ sơ</a>
                 <br>
-                <a href="#">Tài khoản của tôi</a>
+                <a href="#">Địa chỉ</a>
                 <br>
-                <a href="#">Tài khoản của tôi</a>
+                <a href="#">Đổi mật khẩu</a>
                 <br>
-                <a href="#">Tài khoản của tôi</a>
+                <a href="#">Thông báo của tôi</a>
             </div>
 
             <div class="board">
                 <div class="profile">
                     <h1>HỒ SƠ CỦA TÔI</h1>
                 </div>
-                <br><br><br><br><br>
-                <p class="title">Tên đăng nhập<div class="box"></div></p>
-                <p class="title">Email
-                    <div class="box">
-                        <input type="text" placeholder="Nhập email của bạn" name="email">
-                    </div>
-                </p>
-                <p class="title">Họ và tên<div class="box"></div></p>
-                <p class="title">Giới tính<div class="box"></div></p>
-                <p class="title">Ngày sinh<div class="box"></div></p>
-                <p class="title">Số điện thoại<div class="box"></div></p>
+                
+                <!--  -->
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="username">Tên đăng nhập</label>
+                        <input type="text" id="username" name="username" placeholder="Username">
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder="abcdef@gmal.com">
+
+                        <label for="name">Họ và tên</label>
+                        <input type="text" id="name" name="name" placeholder="Nguyen Van A">
+
+                        <label for="gender">Giới tính</label>
+                        <select id="gender" name="gender">
+                            <option value="nam">Nam</option>
+                            <option value="nữ">Nữ</option>
+                            <option value="khác">Khác</option>
+                        </select>
+
+                        <label for="date">Ngày sinh</label>
+                        <input type="date" id="date" name="date">
+                        
+                        <br>
+                        <label for="phone">Số điện thoại</label>
+                        <input type="text" id="phone" name="phone" placeholder="0123 456 789">
+                        <!-- <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea> -->
+                        <input type="submit" value="Lưu">
+                    </form>
+                </div>
                 <!--  -->
                 <div class="line"></div>
                 <div class="select">
@@ -71,6 +92,7 @@
             </div>
         </div>
     </main>
+
     <footer class="base-color">
         <div class="row ">
             <div class="col-md-3 text-center">
