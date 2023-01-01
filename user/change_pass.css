@@ -196,16 +196,16 @@ p.s_2 {
     color: #000000;
 }
 
-.avt {
+.pw {
     position: absolute;
-    top: 20px;
+    top: 80px;
     width: 200px;
     height: auto;
     right: 30px;
 }
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=password], select, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
